@@ -16,6 +16,7 @@ const products = [
     price: '$25.00',
     image: 'images/kid-dress.jpg',
     alt: 'Girls dress',
+    tag: 'New',
   },
   {
     id: 3,
@@ -48,6 +49,7 @@ function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-copy">
+        <span className="hero-eyebrow">New Summer Collection</span>
         <h2>Comfortable kids clothing made for every adventure</h2>
         <p>Shop bright, playful outfits for babies, toddlers, and children.</p>
         <a className="button" href="#shop">
@@ -64,9 +66,31 @@ function Hero() {
   );
 }
 
+function StyleSpotlight() {
+  return (
+    <section className="style-spotlight">
+      <div className="spotlight-copy">
+        <span className="spotlight-tag">Dress Edit</span>
+        <h2>Twirl-ready dresses for every little trendsetter</h2>
+        <p>Discover soft, sparkly, and playful dresses that make every day feel like show-and-tell.</p>
+        <a className="button button-secondary" href="#shop">
+          Explore dress styles
+        </a>
+      </div>
+      <div className="spotlight-image">
+        <img
+          src="https://media.giphy.com/media/xT9KVH8InmGrBu2uCe/giphy.gif"
+          alt="Kids twirling in dresses"
+        />
+      </div>
+    </section>
+  );
+}
+
 function ProductCard({ product }) {
   return (
     <article className="product-card">
+      {product.tag && <span className="product-tag">{product.tag}</span>}
       <img src={product.image} alt={product.alt} />
       <h3>{product.name}</h3>
       <p>{product.description}</p>
@@ -137,6 +161,7 @@ export default function App() {
       <Header />
       <main>
         <Hero />
+        <StyleSpotlight />
         <Products />
         <Featured />
         <Newsletter />
