@@ -15,7 +15,7 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: var(--bg);
+  background: radial-gradient(circle at top left, #fff3ff 0%, #ffe8f0 35%, #f5f3ff 100%);
   color: var(--text);
   line-height: 1.6;
 }

@@ -102,8 +102,8 @@ function Featured() {
       </div>
       <div className="highlight-image">
         <img
-          src="https://media.giphy.com/media/3o7aD4g4Z2GxN0dT3a/giphy.gif"
-          alt="Animated kids outfit showcase"
+          src="https://media.giphy.com/media/l0HlQ7LRalF6BzBvG/giphy.gif"
+          alt="Animated dress showcase for kids fashion"
         />
       </div>
     </section>
