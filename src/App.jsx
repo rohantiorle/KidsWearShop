@@ -31,7 +31,7 @@ function Header() {
   return (
     <header className="site-header">
       <div className="brand">
-        <h1>Zuriko Kids wear rohan</h1>
+        <h1>Zuriko Kids wear</h1>
         <p>Bright outfits for playful kids</p>
       </div>
       <nav className="site-nav">
