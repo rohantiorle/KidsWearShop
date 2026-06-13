@@ -10,5 +10,15 @@ A simple static kids wear storefront website built with HTML and CSS.
 
 ## How to use
 
-1. Open `index.html` in a browser.
-2. Replace the image files in `images/` with your own kids wear photos.
+1. Run `npm install` to install dependencies.
+2. Start the development server with `npm run dev`.
+3. Open the displayed Vite URL in your browser.
+
+## React app structure
+
+- `index.html` — React entrypoint with `#root`
+- `src/index.jsx` — React bootstrap
+- `src/App.jsx` — main app components
+- `styles.css` — shared styling
+
+> Keep `images/` files in place for the existing product image URLs.
