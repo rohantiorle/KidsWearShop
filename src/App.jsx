@@ -55,7 +55,10 @@ function Hero() {
         </a>
       </div>
       <div className="hero-image">
-        <img src="images/kids-fashion-hero.jpg" alt="Kids wearing colorful clothes" />
+        <img
+          src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif"
+          alt="Animated kids playing in colorful clothes"
+        />
       </div>
     </section>
   );
@@ -98,7 +101,10 @@ function Featured() {
         </ul>
       </div>
       <div className="highlight-image">
-        <img src="images/kid-outfits.jpg" alt="Kids wearing matching outfits" />
+        <img
+          src="https://media.giphy.com/media/3o7aD4g4Z2GxN0dT3a/giphy.gif"
+          alt="Animated kids outfit showcase"
+        />
       </div>
     </section>
   );
